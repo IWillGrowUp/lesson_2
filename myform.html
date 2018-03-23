@@ -12,197 +12,205 @@
     <header>
         <h3>Тестові завдання по темі "Козаки"</h3>
     </header>
-    <main>
-        <form method="POST" action="https://formspree.io/mikhail.romanishin@gmail.com">
-            <label for="client-name">Ім'я: </label>
-            <input type="text" name="client-name" placeholder="Ім'я" id="client-name" required>
+    <form method="POST" action="https://formspree.io/mikhail.romanishin@gmail.com">
+        <label for="client-name">Ім'я:</label>
+        <input type="text" name="Ім'я" placeholder="Ім'я" id="client-name" required>
+        <br>
+        <label>Прізвище:
+                <input type="text" name="Прізвище" placeholder="Прізвище" required>
+        </label>
+        <br>
+        <label>Email:
+            <input type="email" name="client-email" placeholder="Email" required>
+        </label>
+        <br>
+        <label for="tel">Номер телефону:</label>
+        <input type="tel" id="tel" name="Телефон" placeholder="+380xxxxxxxxx">
+        <br>
+        <label for="city">Місто:</label>
+        <select id="city" name="Місто">
+            <option>Львів</option>
+            <option>Тернопіль</option>
+            <option>Київ</option>
+        </select>
+        <br>
+        <hr>
+        <p>1. У якому році з'явилися перші згадки в документальних джерелах про українських козаків ?</p>
+        <label>
+            <input type="radio" name="answer1" value="1560-і роки">1560-і роки
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="answer1" value="1480-і роки">1480-і роки
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="answer1" value="1490-і роки">1490-і роки
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="answer1" value="1520-і роки">1520-і роки
+        </label>
+        <p>2. Який стяг був у Юрія Паца ?</p>
+        <label>
+            <input type="radio" name="answer2" value="Стяг Юрія Паца"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Alex_K_Juri_Pac.svg/20px-Alex_K_Juri_Pac.svg.png" alt="Стяг">
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="answer2" value="Стяг Богдана Глинського"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Alex_K_Bohdan_Glinskyi.svg/20px-Alex_K_Bohdan_Glinskyi.svg.png" alt="Стяг">
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="answer2" value="Стяг Дмитра Путятича"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Alex_K_Dmytro_Putyatych.svg/20px-Alex_K_Dmytro_Putyatych.svg.png" alt="Стяг">
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="answer2" value="Стяг Дмитра Вишневецького"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Alex_K_Korybut-Wyshnevetski.svg/20px-Alex_K_Korybut-Wyshnevetski.svg.png" alt="Стяг">
+        </label>
+        <p>3. Обов'язкові атрибути козака ?</p>
+        <label>
+            <input type="checkbox" name="answer3" value="Шаровари">Шаровари
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="answer3" value="Шабля">Шабля
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="answer3" value="Книжка">Книжка
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="answer3" value="Люлька">Люлька
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="answer3" value="Молоток">Молоток
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="answer3" value="Кінь">Кінь
+        </label>
+        <p>4. Прапор, прикрашений, як правило, зображеннями святих або козака з мушкетом, основний клейнод козацтва, мав назву:</p>
+        <label>
+            <input type="radio" name="answer4" value="Бунчук">Бунчук
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="answer4" value="Корогва">Корогва
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="answer4" value="Каламар">Каламар
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="answer4" value="Булава">Булава
+        </label>
+        <p>5. Установіть відповідність між назвою козацького клейнода та його характеристикою.</p>
+        <label>
+            <input type="text" name="answer5" value=""> - це символ влади кошового отамана та гетьмана, палиця з металевою або дерев’яною кулею на кінці.
+        </label>
+        <br>
+        <label>
+            <input type="text" name="answer5" value=""> - це музичний інструмент, що використовувався для задання ритму руху війська, був у довбиша.
+        </label>
+        <br>
+        <label>
+            <input type="text" name="answer5" value=""> - це символ влади полковників, палиця, з одного краю якої кріпилося кілька металевих пластин.
+        </label>
+        <br>
+        <label>
+            <input type="text" name="answer5" value=""> - це символ влади кошового отамана та гетьмана, куля на жердині, до якої кріпилося пасмо кінського волосся.
+        </label>
+        <p></p>
+        Варіанти: литаври, бунчук, пірнач, булава
+        <p>6. Головні якості козака:</p>
+        <label>
+            <input type="checkbox" name="answer6" value="Сміливість">Сміливість
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="answer6" value="Жадібність">Жадібність
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="answer6" value="Завжди тримає своє слово">Завжди тримає своє слово
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="answer6" value="Готовий прийти на виручку">Готовий прийти на виручку
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="answer6" value="Ваш варіант">Ваш варіант:
+        </label>
+        <input type="text" name="answer6" placeholder="Ваша відповідь" value="">
+        <p>7. Вкажіть Івана Мазепу</p>
+        <label>
+            <input type="radio" name="answer7" value="Богдан Хмельницький"><img src="http://ostriv.in.ua/images/publications/4/14011/1353146932.jpg" alt="Фото" width="350" height="400">
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="answer7" value="Іван Мазепа"><img src="https://uamodna.com/assets/articles/image/c/x/m/cxm768/fullsize.jpg" alt="Фото" width="350" height="400">
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="answer7" value="Іван Виговський"><img src="http://msmb.org.ua/media/msmb/images/pic/6/tbmazepa1.jpg" alt="Фото" width="350" height="400">
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="answer7" value="Петро Сагайдачний"><img src="http://ostriv.in.ua/images/publications/4/6983/1308293748.jpg" alt="Стяг" width="350" height="400">
+        </label>
+        <br>
+        <p>8. Розташуйте в хронологічній послідовності (1-4):
             <br>
-            <label>Прізвище:
-                <input type="password" name="client-password" placeholder="Прізвище"
-                required>
-            </label>
-            <br>
-            <label>Email:
-                <input type="email" name="client-email" placeholder="Email" required>
-            </label>
-            <br>
-            <hr>
-            <p>1. У якому році з'явилися перші згадки в документальних джерелах про українських козаків ?</p>
-            <label>
-                <input type="radio" name="answer" value="1560-і роки">1560-і роки
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="answer" value="1480-і роки">1480-і роки
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="answer" value="1490-і роки">1490-і роки
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="answer" value="1520-і роки">1520-і роки
-            </label>
-            <p>2. Який стяг був у Юрія Паца ?</p>
-            <label>
-                <input type="radio" name="answer" value="Стяг Юрія Паца"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Alex_K_Juri_Pac.svg/20px-Alex_K_Juri_Pac.svg.png" alt="Стяг">
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="answer" value="Стяг Богдана Глинського"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Alex_K_Bohdan_Glinskyi.svg/20px-Alex_K_Bohdan_Glinskyi.svg.png" alt="Стяг">
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="answer" value="Стяг Дмитра Путятича"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Alex_K_Dmytro_Putyatych.svg/20px-Alex_K_Dmytro_Putyatych.svg.png" alt="Стяг">
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="answer" value="Стяг Дмитра Вишневецького"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Alex_K_Korybut-Wyshnevetski.svg/20px-Alex_K_Korybut-Wyshnevetski.svg.png" alt="Стяг">
-            </label>
-            <p>3. Обов'язкові атрибути козака ?</p>
-            <label>
-                <input type="checkbox" name="answer" value="Шаровари">Шаровари
-            </label>
-            <br>
-            <label>
-                <input type="checkbox" name="answer" value="Шабля">Шабля
-            </label>
-            <br>
-            <label>
-                <input type="checkbox" name="answer" value="Книжка">Книжка
-            </label>
-            <br>
-            <label>
-                <input type="checkbox" name="answer" value="Люлька">Люлька
-            </label>
-            <br>
-            <label>
-                <input type="checkbox" name="answer" value="Молоток">Молоток
-            </label>
-            <br>
-            <label>
-                <input type="checkbox" name="answer" value="Кінь">Кінь
-            </label>
-            <p>4. Прапор, прикрашений, як правило, зображеннями святих або козака з мушкетом, основний клейнод козацтва, мав назву:</p>
-            <label>
-                <input type="radio" name="answer" value="Бунчук">Бунчук
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="answer" value="Корогва">Корогва
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="answer" value="Каламар">Каламар
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="answer" value="Булава">Булава
-            </label>
-            <p>5. Установіть відповідність між назвою козацького клейнода та його характеристикою.</p>
-            <label>
-                <input type="text" name="answer" value=""> - це символ влади кошового отамана та гетьмана, палиця з металевою або дерев’яною кулею на кінці.
-            </label>
-            <br>
-            <label>
-                <input type="text" name="answer" value=""> - це музичний інструмент, що використовувався для задання ритму руху війська, був у довбиша.
-            </label>
-            <br>
-            <label>
-                <input type="text" name="answer" value=""> - це символ влади полковників, палиця, з одного краю якої кріпилося кілька металевих пластин.
-            </label>
-            <br>
-            <label>
-                <input type="text" name="answer" value=""> - це символ влади кошового отамана та гетьмана, куля на жердині, до якої кріпилося пасмо кінського волосся.
-            </label>
-            <p></p>
-            Варіанти: литаври, бунчук, пірнач, булава
-            <p>6. Головні якості козака:</p>
-            <label>
-                <input type="checkbox" name="answer" value="Сміливість">Сміливість
-            </label>
-            <br>
-            <label>
-                <input type="checkbox" name="answer" value="Жадібність">Жадібність
-            </label>
-            <br>
-            <label>
-                <input type="checkbox" name="answer" value="Завжди тримає своє слово">Завжди тримає своє слово
-            </label>
-            <br>
-            <label>
-                <input type="checkbox" name="answer" value="Готовий прийти на виручку">Готовий прийти на виручку
-            </label>
-            <br>
-            <label>
-                <input type="checkbox" name="answer" value="Ваш варіант">Ваш варіант:
-            </label>
-            <input type="text" name="answer" placeholder="Ваша відповідь" value="">
-            <p>7. Вкажіть Івана Мазепу</p>
-            <label>
-                <input type="radio" name="answer" value="Богдан Хмельницький"><img src="http://ostriv.in.ua/images/publications/4/14011/1353146932.jpg" alt="Фото" width="350" height="400">
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="answer" value="Іван Мазепа"><img src="https://uamodna.com/assets/articles/image/c/x/m/cxm768/fullsize.jpg" alt="Фото" width="350" height="400">
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="answer" value="Іван Виговський"><img src="http://msmb.org.ua/media/msmb/images/pic/6/tbmazepa1.jpg" alt="Фото" width="350" height="400">
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="answer" value="Петро Сагайдачний"><img src="http://ostriv.in.ua/images/publications/4/6983/1308293748.jpg" alt="Стяг" width="350" height="400">
-            </label>
-            <br>
-            <p>8. Розташуйте в хронологічній послідовності (1-4):
-                <br>
-                <small>Для подвоєння балів вкажіть дату кожної події</small></p>
-            <label>
-                <input type="text" name="answer" value=""> Повстання під проводом К.Косинського
-            </label>
-            <label>
-                <input type="text" name="2answer" value=""> рік
-            </label>
-            <br>
-            <label>
-                <input type="text" name="answer" value=""> Створення реєстрового козацтва 
-            </label>
-            <label>
-                <input type="text" name="2answer" value=""> рік
-            </label>
-            <br>
-            <label>
-                <input type="text" name="answer" value=""> Заснування Запорозької Січі 
-            </label>
-            <label>
-                <input type="text" name="2answer" value=""> рік
-            </label>
-            <br>
-            <label>
-                <input type="text" name="answer" value=""> Повстання під проводом С.Наливайка 
-            </label>
-            <label>
-                <input type="text" name="2answer" value=""> рік
-            </label>
-            <p>9. Який з маршів є козацьким ?</p>
-            <input type="radio" name="answer" value="Марш прощання Слав'янки"><audio src="Марш__Прощание_Славянки_.mp3" controls></audio>
-            <br>
-            <input type="radio" name="answer" value="Козацький марш"><audio src="КОЗАЦЬКИЙ_МАРШ_(Ukrainian_Cossack_Marсh).mp3" controls></audio>
-            <br>
-            <input type="radio" name="answer" value="Весільний марш"><audio src="Ф._Мендельсон_-_Свадебный_марш.mp3" controls></audio>
-            <br>
-            <input type="radio" name="answer" value="Шкільний марш"><audio src="Шкільний_марш.mp3" controls></audio>
+            <small>Для подвоєння балів вкажіть дату кожної події</small></p>
+        <label>
+            <input type="number" name="answer8" value="" min="1" max="4"> Повстання під проводом К.Косинського
+        </label>
+        <label>
+            <input type="text" name="2answer8" value="" > рік
+        </label>
+        <br>
+        <label>
+            <input type="number" name="answer8" value="" min="1" max="4"> Створення реєстрового козацтва 
+        </label>
+        <label>
+            <input type="text" name="2answer8" value=""> рік
+        </label>
+        <br>
+        <label>
+            <input type="number" name="answer8" value="" min="1" max="4"> Заснування Запорозької Січі 
+        </label>
+        <label>
+            <input type="text" name="2answer8" value=""> рік
+        </label>
+        <br>
+        <label>
+            <input type="number" name="answer8" value="" min="1" max="4"> Повстання під проводом С.Наливайка 
+        </label>
+        <label>
+            <input type="text" name="2answer8" value=""> рік
+        </label>
+        <p>9. Який з маршів є козацьким ?</p>
+        <input type="radio" name="answer9" value="Марш прощання Слав'янки"><audio src="Марш__Прощание_Славянки_.mp3" controls></audio>
+        <br>
+        <input type="radio" name="answer9" value="Козацький марш"><audio src="КОЗАЦЬКИЙ_МАРШ_(Ukrainian_Cossack_Marсh).mp3" controls></audio>
+        <br>
+        <input type="radio" name="answer9" value="Весільний марш"><audio src="Ф._Мендельсон_-_Свадебный_марш.mp3" controls></audio>
+        <br>
+        <input type="radio" name="answer9" value="Шкільний марш"><audio src="Шкільний_марш.mp3" controls></audio>
 
-            <p><label>10. Описове завдання. Берестейська Унія. Роки, учасники, основні положення.<br><small>Підвищена складність<br></small><input type="text" name="answer" value="" size="150"></label></p>
-            <br>
-        </form>
-    </main>
-    <footer>
+        <p><label>10. Описове завдання. Берестейська Унія. Роки, учасники, основні положення.<br><small>Підвищена складність<br></small><textarea name="answer10" rows="10" cols="50"></textarea></label></p>
+        <br>
         <label>Дата заповнення
-                <input type="text" name="answer" placeholder="дд/мм/рррр" value="">
-            </label>
-    </footer>
+            <input type="datetime-local" name="datetime" id="datetime" required>
+        </label>
+        <br>
+        <input type="submit" value="Надіслати">
+        <input type="reset">
+    </form>
 </body>
 
 </html>
